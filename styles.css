@@ -1,0 +1,59 @@
+body {
+  color: #073869;
+  margin-top: -2.5%;
+  font-family: "Lucida Console", "Courier New", monospace;
+  text-shadow: -2px 0 white, 0 2px white, 2px 0 white, 0 -2px white;
+  background-image: linear-gradient(to bottom right, #83cbc4, #fac33d);
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+}
+
+h3 {
+  font-size: 45px;
+}
+
+img {
+  width: 45%;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  text-align: center;
+
+}
+
+.player1 {
+  display: inline-block;
+  text-align: center;
+  width: 35%;
+}
+
+.player2 {
+  display: inline-block;
+  text-align: center;
+  width: 35%;
+
+}
+
+.footer {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#btnplay {
+  width: 200px;
+  height: 200px;
+  cursor: pointer;
+  margin-left: 650px;
+  transition: 0.3s;
+  filter: drop-shadow(0 0 10px #fac33d)drop-shadow(0 0 15px #fac33d);
+}
+
+#btnplay:hover {
+  transform: scale(1.1);
+  animation: zoom-in-zoom-out 0.3s ease infinite;
+}
